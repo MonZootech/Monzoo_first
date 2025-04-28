@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wall{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.5)50%,rgb(0, 0, 0, 0.5)50%), url(shiraito-waterfall-autumn-japan.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo img{
+    width: 80px;
+    margin-left: 10px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.logo p{
+
+    font-size: 40px;
+    color: orangered;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px green, -3px -3px 5px blue;
+}
+
+.navbar a{
+    margin-left: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li{
+    padding: 20px;
+}
+
+.navbar a:hover{
+    color: orangered;
+    transition: color 1s;
+}
+.navbar a:active{
+    color: orangered;
+    opacity: 0.6;
+}
+
+.navbar{
+    position: absolute;
+    left: 300px;
+    top: 30px;
+}
+
+.data > p{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+}
+
+.data{
+    margin-left: 40px;
+    margin-top: 80px;
+
+}
+
+.chip p{
+    font-size: 20px;
+    color: white;
+    width: 500px;
+}
+
+.chip:active p{
+    display: block;
+}
+
+.chip button{
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+#water p{
+    font-size: 100px;
+    color: hsl(0, 14%, 89%);
+    float: right;
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    font-weight: bold;
+    text-shadow: 8px 8px 10px orange, -8px -8px 10px blue;
+}
+
+
+
+
